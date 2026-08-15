@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f6f0e8" />
+  <title>偉你亭留｜婚禮邀請</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--sun:#d4a373;--sage:#8da399;--ink:#47423d;--cream:#f6f0e8;--paper:#fffdf9;--line:rgba(71,66,61,.16);--shadow:0 18px 55px rgba(91,73,57,.13)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:"Noto Serif TC",serif;line-height:1.8}button,input,select,textarea{font:inherit}a{color:inherit}.nowrap{white-space:nowrap}
+    .nav{position:fixed;z-index:50;top:0;left:0;right:0;margin:14px auto;width:min(920px,calc(100% - 28px));display:flex;align-items:center;justify-content:space-between;padding:10px 18px;border:1px solid rgba(255,255,255,.48);border-radius:999px;background:rgba(255,253,249,.68);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 28px rgba(47,43,37,.09)}
+    .brand{font-family:"Cormorant Garamond",serif;font-size:22px;font-weight:600;text-decoration:none;letter-spacing:.04em}.nav-links{display:flex;gap:24px}.nav-links a{text-decoration:none;font-size:13px;letter-spacing:.08em}
+    .hero{min-height:100svh;position:relative;display:grid;place-items:center;text-align:center;color:#fff;background:linear-gradient(180deg,rgba(29,31,28,.22),rgba(29,31,28,.55)),url("https://i.postimg.cc/9QmpqN7h/S-71188483.jpg") center/cover no-repeat;padding:110px 20px 60px}.hero:after{content:"";position:absolute;inset:auto 0 0;height:150px;background:linear-gradient(transparent,var(--cream))}.hero-inner{position:relative;z-index:1;text-shadow:0 3px 24px rgba(0,0,0,.28)}.eyebrow{font-family:"Cormorant Garamond",serif;letter-spacing:.34em;text-transform:uppercase;font-size:15px}.hero h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(47px,8vw,88px);line-height:1;margin:24px 0 12px}.hero .slogan{font-size:clamp(18px,3vw,25px);letter-spacing:.28em}.hero-date{margin-top:25px;font-family:"Cormorant Garamond",serif;font-size:22px;letter-spacing:.18em}
+    main{overflow:hidden}.section{padding:100px 20px}.wrap{width:min(930px,100%);margin:auto}.section-title{text-align:center;margin-bottom:48px}.section-title small{display:block;color:var(--sun);font-family:"Cormorant Garamond",serif;letter-spacing:.26em;text-transform:uppercase}.section-title h2{font-weight:500;font-size:clamp(28px,5vw,44px);letter-spacing:.1em;margin:6px 0}
+    .intro{text-align:center;max-width:680px;margin:auto;font-size:17px}.flourish{width:70px;height:1px;background:var(--sun);margin:24px auto}
+    .countdown{margin-top:50px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.time-card{min-height:150px;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);border-radius:22px;box-shadow:0 16px 44px rgba(85,67,51,.11),inset 0 1px 0 #fff;display:grid;grid-template-columns:1fr 1px 52px;align-items:center;padding:20px}.time-card .num{font-family:"Cormorant Garamond",serif;font-size:clamp(44px,7vw,68px);line-height:1;color:var(--sun);font-variant-numeric:tabular-nums}.time-card .vline{height:58px;background:linear-gradient(transparent,rgba(71,66,61,.28),transparent)}.time-card .unit{writing-mode:vertical-rl;letter-spacing:.22em;font-size:12px;color:#756e67}.time-card .en{font-family:"Cormorant Garamond",serif;font-size:10px;letter-spacing:.1em}
+    .details-bg{background:#ede5da}.vcard{width:min(620px,100%);margin:auto;background:var(--paper);border-radius:30px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(255,255,255,.75)}.vcard-head{padding:48px 35px;text-align:center;background:linear-gradient(145deg,rgba(212,163,115,.18),rgba(141,163,153,.14))}.vcard-head h3{font-size:28px;margin:0 0 8px}.vcard-head .en{font-family:"Cormorant Garamond",serif;font-size:20px;letter-spacing:.06em;color:var(--sage)}.info-list{padding:18px 35px 36px}.info-row{display:grid;grid-template-columns:92px 1fr;gap:20px;padding:19px 0;border-bottom:1px solid var(--line)}.info-row:last-child{border:0}.info-label{color:var(--sun);font-size:13px;letter-spacing:.12em}.info-value{font-size:15px}.map-link{display:inline-flex;align-items:center;gap:7px;margin-top:12px;padding:7px 14px;border:1px solid rgba(141,163,153,.45);border-radius:999px;color:#647d72;background:rgba(141,163,153,.08);font-size:13px;text-decoration:none;white-space:nowrap;transition:.2s}.map-link:hover{background:var(--sage);color:#fff;transform:translateY(-1px)}.dress-dots{display:flex;gap:9px;margin-top:8px}.dress-dots i{width:24px;height:24px;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+    .accordion{width:min(620px,100%);margin:20px auto 0}.accordion-btn{width:100%;border:0;border-radius:18px;background:var(--sage);color:white;padding:18px 22px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;letter-spacing:.08em}.accordion-btn span:last-child{font-size:22px;transition:.3s}.accordion-btn[aria-expanded="true"] span:last-child{transform:rotate(45deg)}.accordion-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}.accordion-panel.open{grid-template-rows:1fr}.accordion-inner{overflow:hidden}.routes{background:var(--paper);border-radius:0 0 18px 18px;padding:0 24px}.open .routes{padding:22px 24px}.route{padding:16px 0;border-bottom:1px solid var(--line);font-size:14px}.route:last-child{border:0}.route strong{display:block;color:var(--sun);margin-bottom:4px}
+    .form-section{background:linear-gradient(180deg,var(--cream),#f0e7dc)}.form-card{width:min(700px,100%);margin:auto;background:rgba(255,253,249,.86);border:1px solid rgba(255,255,255,.9);border-radius:28px;padding:clamp(25px,6vw,54px);box-shadow:var(--shadow)}.field{margin-bottom:24px}.field label{display:block;font-size:13px;letter-spacing:.08em;margin-bottom:8px;color:#655d56}.field input,.field select,.field textarea{width:100%;border:1px solid rgba(71,66,61,.18);background:#fff;border-radius:13px;padding:14px 15px;color:var(--ink);outline:none;transition:.2s}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--sage);box-shadow:0 0 0 4px rgba(141,163,153,.12)}.field textarea{min-height:110px;resize:vertical}.conditional{display:none}.conditional.show{display:block}.note{font-size:13px;color:#7a7169;margin:-8px 0 22px}.submit{width:100%;border:0;border-radius:999px;padding:16px;background:linear-gradient(110deg,var(--sun),#c98f62);color:#fff;cursor:pointer;letter-spacing:.18em;box-shadow:0 10px 24px rgba(212,163,115,.28)}.submit:disabled{opacity:.65}.status{text-align:center;min-height:28px;margin-top:13px;font-size:14px;color:var(--sage)}.music-btn{position:fixed;z-index:60;right:20px;bottom:20px;display:flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.75);border-radius:999px;padding:11px 17px;background:rgba(255,253,249,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 10px 30px rgba(58,49,42,.16);color:var(--ink);cursor:pointer;font-size:13px;letter-spacing:.05em}.music-icon{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sun);color:#fff;font-size:14px}.music-btn.playing .music-icon{animation:pulse 1.8s ease-in-out infinite}.music-player{position:fixed;width:1px;height:1px;left:-9999px;bottom:0;overflow:hidden;opacity:0;pointer-events:none}@keyframes pulse{50%{transform:scale(1.12);box-shadow:0 0 0 7px rgba(212,163,115,.16)}}footer{text-align:center;padding:45px 20px;background:#3f4944;color:#f9f4ed;font-family:"Cormorant Garamond",serif;letter-spacing:.08em}
+    @media(max-width:760px){.nav{justify-content:center}.brand{display:none}.nav-links{width:100%;justify-content:space-around;gap:8px}.nav-links a{font-size:12px}.section{padding:76px 18px}.countdown{grid-template-columns:repeat(2,1fr);gap:11px}.time-card{min-height:116px;padding:14px;grid-template-columns:1fr 1px 42px}.time-card .num{font-size:46px}.time-card .vline{height:44px}.hero h1{font-size:50px}.hero .slogan{letter-spacing:.16em}.info-list{padding:15px 22px 28px}.info-row{grid-template-columns:75px 1fr;gap:12px}.nowrap{font-size:clamp(11px,3.4vw,15px)}.form-card{border-radius:22px}.vcard-head{padding:38px 20px}.music-btn{right:13px;bottom:13px;padding:9px 13px}.music-btn .music-label{display:none}}
+    @media(max-width:370px){.nav-links a{font-size:11px}.time-card .num{font-size:39px}.time-card{grid-template-columns:1fr 1px 35px}.nowrap{font-size:10.5px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="主要導覽">
+    <a class="brand" href="#top">S &amp; T</a>
+    <div class="nav-links"><a href="#about">關於我們</a><a href="#details">婚禮詳情</a><a href="#reply">出席回函</a></div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner"><div class="eyebrow">We're getting married</div><h1>Shao Cheng Wei<br><em>&amp;</em> Toutou</h1><div class="slogan">往後餘生，偉你亭留</div><div class="hero-date">JANUARY 17, 2027 · 11:00</div></div>
+  </header>
+
+  <main>
+    <section class="section" id="about"><div class="wrap"><div class="section-title"><small>Our Day</small><h2>我們的大日子</h2></div><div class="intro">人生是個漫長又有趣的旅程<br>很幸運 我們在途中遇見了彼此<br><br>在人生各自的篇章裡相遇<br>從此有了一段共同的故事<br>我們也準備好一起翻開下一頁<br><br>而現在　期待在這一天<br>邀請你們一起見證我們的愛情<div class="flourish"></div></div>
+      <div class="countdown" aria-label="婚禮倒數">
+        <div class="time-card"><span class="num" id="days">000</span><i class="vline"></i><span class="unit">天 <span class="en">DAYS</span></span></div>
+        <div class="time-card"><span class="num" id="hours">00</span><i class="vline"></i><span class="unit">時 <span class="en">HRS</span></span></div>
+        <div class="time-card"><span class="num" id="minutes">00</span><i class="vline"></i><span class="unit">分 <span class="en">MIN</span></span></div>
+        <div class="time-card"><span class="num" id="seconds">00</span><i class="vline"></i><span class="unit">秒 <span class="en">SEC</span></span></div>
+      </div>
+    </div></section>
+
+    <section class="section details-bg" id="details"><div class="wrap"><div class="section-title"><small>Wedding Details</small><h2>婚禮詳情</h2></div>
+      <article class="vcard"><div class="vcard-head"><h3 class="nowrap">蘭克斯特 Lancaster House</h3><div class="en">Wedding Luncheon</div></div><div class="info-list">
+        <div class="info-row"><div class="info-label">日期 DATE</div><div class="info-value nowrap">2027 年 1 月 17 日（日）</div></div>
+        <div class="info-row"><div class="info-label">時間 TIME</div><div class="info-value"><div class="nowrap">11:00 迎賓餐前酒會</div><div class="nowrap">11:30 入席</div><div class="nowrap">12:00 準時開宴</div></div></div>
+        <div class="info-row"><div class="info-label">午宴廳 HALL</div><div class="info-value nowrap">A廳</div></div>
+        <div class="info-row"><div class="info-label">地址 VENUE</div><div class="info-value"><div class="nowrap">臺中市北屯區松竹里崇德路二段347號</div><a class="map-link" href="https://maps.app.goo.gl/6Y5rMw5QufELcaYs7" target="_blank" rel="noopener noreferrer" aria-label="在 Google 地圖開啟蘭克斯特 Lancaster House"><span aria-hidden="true">⌖</span> 地圖指引 GOOGLE MAPS</a></div></div>
+        <div class="info-row"><div class="info-label">服裝 DRESS</div><div class="info-value">奶茶色・燕麥色・卡其色・白色・黑色<div class="dress-dots" aria-label="Dress Code 色票"><i style="background:#c7a985" title="奶茶色"></i><i style="background:#d8cbb4" title="燕麥色"></i><i style="background:#a68b64" title="卡其色"></i><i style="background:#fff" title="白色"></i><i style="background:#222" title="黑色"></i></div></div></div>
+      </div></article>
+      <div class="accordion"><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="traffic-panel"><span>交通指引 TRANSPORTATION</span><span>＋</span></button><div class="accordion-panel" id="traffic-panel"><div class="accordion-inner"><div class="routes">
+        <div class="route"><strong class="nowrap">南下（國道1號）</strong>由<span class="nowrap">大雅交流道</span>下，左轉<span class="nowrap">環中路</span>直行，右轉<span class="nowrap">松竹路三段</span>，再右轉<span class="nowrap">崇德路二段</span>即可抵達。</div>
+        <div class="route"><strong class="nowrap">北上（國道1號）</strong>由<span class="nowrap">中港交流道</span>下，直行<span class="nowrap">台灣大道</span>，左轉<span class="nowrap">文心路三段</span>，再左轉<span class="nowrap">崇德路二段</span>即可抵達。</div>
+        <div class="route"><strong class="nowrap">台74線快速道路</strong>由「<span class="nowrap">崇德匝道</span>」下，往<span class="nowrap">環中路一段</span>方向行駛，右轉<span class="nowrap">崇德路三段</span>，直行至<span class="nowrap">崇德路二段</span>即可抵達。</div>
+      </div></div></div></div>
+      <div class="accordion"><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="parking-panel"><span>附近停車場 PARKING</span><span>＋</span></button><div class="accordion-panel" id="parking-panel"><div class="accordion-inner"><div class="routes">
+        <div class="route"><strong class="nowrap">松竹停車場</strong><span class="nowrap">臺中市北屯區松竹里梅川東路五段與號崇德六路口</span></div>
+        <div class="route"><strong class="nowrap">日月亭北屯崇德所（uTagGo）</strong><span class="nowrap">臺中市北屯區崇德路二段345號</span></div>
+        <div class="route"><strong class="nowrap">Times 台中崇德二路停車場</strong><span class="nowrap">臺中市北屯區崇德二路二段218號</span></div>
+      </div></div></div></div>
+    </div></section>
+
+    <section class="section form-section" id="reply"><div class="wrap"><div class="section-title"><small>Kindly Reply</small><h2>出席回函</h2></div>
+      <form class="form-card" id="wedding-form" action="https://docs.google.com/forms/d/e/1FAIpQLScYrz4TacA0yawUEqs02pZDjoxdPhaAbNlDPyGURxYg31nGrA/formResponse" method="POST" target="hidden_iframe">
+        <div class="field"><label for="name">姓名 NAME</label><input id="name" name="entry.1576253083" type="text" autocomplete="name" required /></div>
+        <div class="field"><label for="email">電子信箱 EMAIL</label><input id="email" name="entry.1757048610" type="email" autocomplete="email" /></div>
+        <div class="field"><label for="relation">賓客關係 RELATIONSHIP</label><select id="relation" name="entry.235764190" required><option value="" selected disabled>請選擇</option><option>男方親戚</option><option>女方親戚</option><option>男方朋友</option><option>女方朋友</option><option>男方同事</option><option>女方同事</option></select></div>
+        <div class="field"><label for="mobile">手機號碼 MOBILE NUMBER</label><input id="mobile" name="entry.659614132" type="tel" inputmode="tel" autocomplete="tel" required /></div>
+        <div class="field"><label for="guests">參加午宴人數 NUMBER OF GUESTS</label><input id="guests" name="entry.981857981" type="number" min="0" max="10" step="1" required /></div>
+        <p class="note">因宴會席位有限，誠摯邀請以大人為主參與，讓大家能好好放鬆、享受婚禮時光；本次原則上不安排孩童席位，敬請見諒與體諒 🤍</p>
+        <div class="conditional" id="guest-options">
+          <div class="field"><label for="diet">飲食需求 DIETARY REQUIREMENTS</label><select id="diet" name="entry.1356186203"><option value="" selected disabled>請選擇</option><option>葷食</option><option>素食</option></select></div>
+          <div class="field"><label for="invitation">喜帖形式 INVITATION</label><select id="invitation" name="entry.1550298013"><option value="" selected disabled>請選擇</option><option>實體喜帖</option><option>電子喜帖</option></select></div>
+        </div>
+        <div class="field"><label for="message">想對我們說的話 MESSAGE</label><textarea id="message" name="entry.1848278093"></textarea></div>
+        <button class="submit" type="submit">送出回函</button><div class="status" id="status" role="status" aria-live="polite"></div>
+      </form><iframe title="表單提交" name="hidden_iframe" id="hidden_iframe" hidden></iframe>
+    </div></section>
+  </main>
+  <button class="music-btn" id="music-toggle" type="button" aria-label="播放背景音樂" aria-pressed="false"><span class="music-icon" aria-hidden="true">♫</span><span class="music-label">播放音樂</span></button>
+  <div class="music-player" aria-hidden="true"><div id="youtube-player"></div></div>
+  <footer>Shao Cheng Wei &amp; Toutou · 2027.01.17</footer>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    const target = new Date('2027-01-17T11:00:00+08:00').getTime();
+    function tick(){const d=Math.max(0,target-Date.now());const day=Math.floor(d/864e5),hr=Math.floor(d%864e5/36e5),min=Math.floor(d%36e5/6e4),sec=Math.floor(d%6e4/1e3);document.querySelector('#days').textContent=String(day).padStart(3,'0');document.querySelector('#hours').textContent=String(hr).padStart(2,'0');document.querySelector('#minutes').textContent=String(min).padStart(2,'0');document.querySelector('#seconds').textContent=String(sec).padStart(2,'0')}tick();setInterval(tick,1000);
+    document.querySelectorAll('.accordion-btn').forEach(accordionBtn=>{const panel=document.getElementById(accordionBtn.getAttribute('aria-controls'));accordionBtn.addEventListener('click',()=>{const open=accordionBtn.getAttribute('aria-expanded')==='true';accordionBtn.setAttribute('aria-expanded',String(!open));panel.classList.toggle('open',!open)})});
+    const guests=document.querySelector('#guests'),options=document.querySelector('#guest-options'),diet=document.querySelector('#diet'),invitation=document.querySelector('#invitation');function guestLogic(){const show=Number(guests.value)>0;options.classList.toggle('show',show);diet.required=show;invitation.required=show;if(!show){diet.value='';invitation.value=''}}guests.addEventListener('input',guestLogic);
+    const form=document.querySelector('#wedding-form'),frame=document.querySelector('#hidden_iframe'),status=document.querySelector('#status'),submit=document.querySelector('.submit');let submitted=false;form.addEventListener('submit',()=>{submitted=true;submit.disabled=true;status.textContent='正在送出您的回覆…'});frame.addEventListener('load',()=>{if(!submitted)return;status.textContent='已收到您的回覆，謝謝您與我們分享這份喜悅！';form.reset();guestLogic();submit.disabled=false;submitted=false});
+    const musicBtn=document.querySelector('#music-toggle'),musicLabel=musicBtn.querySelector('.music-label');let musicPlayer=null,musicPlaying=false;window.onYouTubeIframeAPIReady=()=>{musicPlayer=new YT.Player('youtube-player',{height:'1',width:'1',videoId:'YIULiiTQl20',playerVars:{playsinline:1,controls:0,disablekb:1,rel:0},events:{onStateChange:event=>{musicPlaying=event.data===YT.PlayerState.PLAYING;musicBtn.classList.toggle('playing',musicPlaying);musicBtn.setAttribute('aria-pressed',String(musicPlaying));musicBtn.setAttribute('aria-label',musicPlaying?'暫停背景音樂':'播放背景音樂');musicLabel.textContent=musicPlaying?'暫停音樂':'播放音樂'}}})};musicBtn.addEventListener('click',()=>{if(!musicPlayer||typeof musicPlayer.playVideo!=='function')return;if(musicPlaying)musicPlayer.pauseVideo();else musicPlayer.playVideo()});
+  </script>
+</body>
+</html>
